@@ -1,0 +1,3 @@
+SELECT COUNT(*), Book_ID
+FROM Copy
+GROUP BY Book_ID;
