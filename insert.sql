@@ -20,6 +20,10 @@ INSERT INTO Authorship(ID,Main,Book_ID,Author_ID)
 VALUES ('1',true,'0672324539','2'),('2',true,'0321181433','1'),('3',true,'0201745704','1'),
 ('4',true,'144936375X','4'),('5',false,'144936375X','3'),('6',true,'1449392776','5');
 
+INSERT INTO Member(ID,M_Name,Gender,Email)
+VALUES ('1','Adam Smith','1','smith@library.us'),('2','Jane Jackson','2','jane@library.us'),('3','Joseph Davis','1','joseph@library.us'),
+('4','Yusif Kareem','1','yusif@library.us'),('5','Jasmin Harris','2','jasmin@library.us');
+
 INSERT INTO Loan(ID,copyID,memberID,borrowDate,returnDate,status)
 VALUES ('1','1234567','1',20100601,20100610,'2'),('2','1234567','2',20110215,20110220,'2'),
 ('3','5432122','2',20110701,20110705,'2'),('4','1237783','5',20120715,20120801,'2'),
